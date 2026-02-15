@@ -462,19 +462,276 @@
             <h2 id="AprendendoHTMLNaPrática">Aprendendo HTML na prática</h2>
             <hr />
 
+            <h5 id="FerramentasUtilizadas">Ferramentas utilizadas</h5>
+            <hr />
+            <p>
+                Para começar a colocar a mão na massa, aprendi que preciso preparar o meu ambiente de trabalho.
+                Não basta apenas o Bloco de Notas; para ser produtivo, o material indicou o uso de ferramentas
+                profissionais e gratuitas:
+            </p>
+            <ul>
+                <li><strong>Visual Studio Code (VS Code):</strong> É o editor de código escolhido. Entendi que ele é
+                    fundamental porque destaca as cores dos códigos, ajuda na autocompletar as tags e organiza o
+                    projeto.</li>
+                <li><strong>Navegador (Google Chrome):</strong> Será o meu "visualizador". Aprendi que, além de navegar,
+                    ele possui ferramentas poderosas para desenvolvedores que usarei nas próximas etapas.</li>
+            </ul>
+            <p>
+                Com esse "kit básico" instalado, estou pronto para criar e testar meus primeiros arquivos .html.
+            </p>
+
+            <h5 id="UsandoOInspetorDeElementos">Usando o Inspetor de Elementos</h5>
+            <hr />
+            <p>
+                Ao chegar nesta etapa, fui apresentado a uma ferramenta poderosa que já vem embutida no navegador: o
+                <strong>Inspetor de Elementos</strong>.
+            </p>
+
+            <p>
+                [cite_start]O material destacou que esse é um recurso extremamente útil para o dia a dia[cite: 29].
+                Entendi que, com ele,
+                consigo "abrir" qualquer site e ver exatamente como o código HTML e CSS foi construído.
+            </p>
+
+            <p>
+                Aprendi que sua principal função é me ajudar a entender a estrutura das páginas e testar alterações em
+                tempo
+                real (como mudar uma cor ou texto) para ver como fica, sem risco de estragar o código original. É
+                basicamente o
+                [cite_start]meu "laboratório de testes" dentro do Chrome[cite: 24].
+            </p>
+
+            <h5 id="EstruturaBasica">Estrutura básica do HTML</h5>
+            <hr />
+            <p>
+                Aprendi que todo arquivo HTML segue um padrão obrigatório, como se fosse um esqueleto que sustenta o
+                corpo.
+                Não posso simplesmente sair escrevendo textos soltos; preciso seguir essa hierarquia para que o
+                navegador
+                [cite_start]entenda a página corretamente[cite: 34].
+            </p>
+
+            <p>
+                A estrutura se divide em blocos principais:
+            </p>
+            <ul>
+                <li><strong>&lt;!DOCTYPE html&gt;:</strong> A primeira linha de tudo. Descobri que ela serve apenas para
+                    avisar o
+                    navegador: "Ei, estou usando a versão mais moderna do HTML (HTML5)".</li>
+                <li><strong>&lt;html&gt;:</strong> É a tag mãe. Tudo o que existe na minha página deve ficar dentro
+                    dela.</li>
+                <li><strong>&lt;head&gt;:</strong> É a "cabeça" do arquivo. Aprendi que aqui ficam as configurações que
+                    o usuário
+                    não vê na página, como o título da aba e a codificação de caracteres.</li>
+                <li><strong>&lt;body&gt;:</strong> É o "corpo". Entendi que é aqui que a mágica acontece: tudo o que eu
+                    quero
+                    que apareça na tela (textos, imagens, vídeos) deve ser escrito dentro dessa tag.</li>
+            </ul>
+
+            <h5 id="Tags">Falando sobre Tags</h5>
+            <hr />
+            <p>
+                [cite_start]Nesta etapa, entendi que as <strong>Tags</strong> são os comandos fundamentais do HTML[cite:
+                37]. Elas funcionam
+                como etiquetas que dizem ao navegador o que é cada pedaço de informação: "isto é um título", "isto é um
+                parágrafo", "isto é uma imagem".
+            </p>
+
+
+
+            <p>
+                Aprendi uma regra de ouro: a maioria das tags funciona em pares. Eu preciso <strong>abrir</strong> a tag
+                (<code>&lt;tag&gt;</code>), colocar o conteúdo no meio, e depois <strong>fechar</strong> a tag
+                (<code>&lt;/tag&gt;</code>) [cite_start][cite: 37]. Se eu esquecer de fechar, o navegador pode se perder
+                e bagunçar a página
+                inteira.
+            </p>
+
+            <p>
+                Além disso, descobri que existe uma hierarquia. Posso colocar uma tag dentro da outra (o que chamamos de
+                "aninhar"), criando uma estrutura organizada de elementos "pais" e "filhos".
+            </p>
 
 
 
 
 
 
+            <h5 id="AtributosBasicos">Atributos básicos</h5>
+            <hr />
+            <p>
+                Aprofundando mais, descobri que as tags sozinhas às vezes não são suficientes. É aí que entram os
+                <strong>Atributos</strong>.
+            </p>
+
+            <p>
+                Aprendi que os atributos funcionam como "poderes extras" ou configurações adicionais que eu dou para uma
+                tag.
+                Eles servem para personalizar o comportamento ou a aparência do elemento.
+            </p>
+
+            <p>
+                Uma regra importante que anotei é que os atributos devem ser escritos <strong>sempre na tag de
+                    abertura</strong>
+                e geralmente seguem o padrão <code>nome="valor"</code>.
+            </p>
+
+            <p>
+                Alguns exemplos básicos que vi incluem definir o idioma da página (<code>lang="pt-br"</code>) ou
+                identificar
+                um elemento exclusivo (<code>id="meu-titulo"</code>). Sem eles, o HTML seria muito rígido.
+            </p>
+
+            <h5 id="PaginaHTML">Executando uma página HTML</h5>
+            <hr />
+            <p>
+                Com o código escrito, aprendi que preciso fazer ele "rodar" para ver o resultado final. Descobri que o
+                HTML
+                não precisa de um compilador complexo; ele precisa apenas de um <strong>Navegador</strong>.
+            </p>
+
+            <p>
+                Entendi que existem formas simples de executar meu arquivo:
+            </p>
+            <ul>
+                <li><strong>Duplo clique:</strong> Se o arquivo estiver salvo corretamente com a extensão
+                    <code>.html</code>,
+                    basta clicar duas vezes nele que o sistema operacional já abre no navegador padrão.
+                </li>
+                <li><strong>Arrastar e soltar:</strong> Posso simplesmente arrastar o meu arquivo de dentro da pasta e
+                    soltar
+                    dentro de uma aba aberta do Chrome.</li>
+            </ul>
+
+            <p>
+                Ao fazer isso, vi a mágica acontecer: o navegador lê todas aquelas tags que escrevi e desenha a página
+                na
+                tela para mim. É nesse momento que eu verifico se cometi algum erro ou se tudo está como eu planejei.
+            </p>
 
 
 
 
+            <h5 id="Textos">Textos</h5>
+            <hr />
+            <p>
+                Chegou a hora de preencher a página com conteúdo. Aprendi que no HTML não basta apenas digitar o texto
+                solto;
+                eu preciso dizer qual é a função de cada frase.
+            </p>
+
+            <p>
+                O material me apresentou as principais tags para isso:
+            </p>
+            <ul>
+                <li><strong>Títulos (Headings):</strong> Aprendi que existe uma hierarquia que vai do
+                    <code>&lt;h1&gt;</code>
+                    (o mais importante, usado para o título principal) até o <code>&lt;h6&gt;</code> (o menos
+                    importante).
+                    Isso ajuda o Google a entender do que se trata a minha página.
+                </li>
+                <li><strong>Parágrafos:</strong> Para escrever blocos de texto comuns, uso a tag <code>&lt;p&gt;</code>.
+                    Ela
+                    garante que o texto tenha o espaçamento correto.</li>
+                <li><strong>Formatação:</strong> Descobri que posso dar ênfase ao texto usando tags como
+                    <code>&lt;strong&gt;</code> (para deixar em <strong>negrito</strong>), <code>&lt;i&gt;</code> ou
+                    <code>&lt;em&gt;</code> (para <em>itálico</em>) e <code>&lt;u&gt;</code> (para <u>sublinhado</u>).
+                </li>
+            </ul>
+
+            <h5 id="Listas">Listas ordenadas e não ordenadas</h5>
+            <hr />
+            <p>
+                Para organizar informações em tópicos, aprendi que o HTML oferece ferramentas específicas chamadas de
+                <strong>Listas</strong>. Entendi que não preciso criar parágrafos soltos ou colocar tracinhos manuais;
+                existem
+                tags próprias para isso que deixam tudo alinhado automaticamente.
+            </p>
 
 
 
+            <p>
+                O material diferenciou dois tipos principais:
+            </p>
+            <ul>
+                [cite_start]<li><strong>Listas Não Ordenadas (&lt;ul&gt;):</strong> São aquelas que usam marcadores
+                    (bolinhas)[cite: 47, 49].
+                    Aprendi que devo usar a tag <code>&lt;ul&gt;</code> (Unordered List) quando a ordem dos itens não
+                    importa,
+                    como numa lista de compras.</li>
+                [cite_start]<li><strong>Listas Ordenadas (&lt;ol&gt;):</strong> São aquelas que usam números ou
+                    letras[cite: 47, 49]. Devo usar
+                    a tag <code>&lt;ol&gt;</code> (Ordered List) quando existe uma sequência ou passo a passo a ser
+                    seguido.
+                </li>
+            </ul>
+
+            <p>
+                Um detalhe fundamental que anotei é que, independente do tipo de lista (se é <code>ul</code> ou
+                <code>ol</code>), cada item dentro dela deve estar sempre dentro da tag <code>&lt;li&gt;</code> (List
+                Item).
+                [cite_start]Sem o <code>li</code>, a lista não funciona[cite: 47].
+            </p>
+
+
+            <h5 id="Links">Links</h5>
+            <hr />
+            <p>
+                [cite_start]Por fim, cheguei a um dos recursos mais importantes da Web: os <strong>Links</strong>[cite:
+                52].
+                Aprendi que são eles que conectam uma página na outra, criando a verdadeira "teia" da internet.
+            </p>
+
+            <p>
+                Entendi que, para criar um link, devo usar a tag <code>&lt;a&gt;</code> (que vem de "Anchor" ou
+                Ancora). Mas ela sozinha não faz nada; o segredo está no atributo <strong>href</strong>.
+            </p>
+
+
+
+            <p>
+                Descobri que o <code>href</code> significa "Hypertext Reference". É dentro dele que eu coloco o endereço
+                (URL) para onde o usuário será levado ao clicar.
+            </p>
+
+            <p>
+                Resumindo:
+                <code>&lt;a href="https://site.com"&gt;Clique aqui&lt;/a&gt;</code>. O texto "Clique aqui" aparece na
+                tela, e o atributo <code>href</code> diz para onde o navegador deve ir.
+            </p>
+
+            <br><br>
+
+            <h2 id="Conclusao">Conclusão</h2>
+            <hr />
+
+            <p>
+                [cite_start]Chegando ao fim deste módulo, sinto que cumpri o objetivo geral proposto: não apenas entendi
+                a teoria de como a Web, os Clients e Servers funcionam, mas também coloquei a mão na massa para
+                configurar meu ambiente e criar minha primeira página[cite: 24, 25].
+            </p>
+
+            <p>
+                Olhando para este documento agora, vejo que ele tem estrutura, títulos, listas e links. Ele é funcional
+                e semântico.
+                Claro, ele ainda parece simples visualmente (apenas texto preto no fundo branco), mas aprendi que isso é
+                normal: o HTML cuida do <strong>esqueleto</strong> e do <strong>conteúdo</strong>.
+            </p>
+
+            <p>
+                O próximo passo lógico na minha jornada será aprender sobre <strong>CSS</strong> (Cascading Style
+                Sheets) para dar vida, cores e estilo a esta estrutura que acabei de construir.
+            </p>
+
+            <br>
+
+            <hr />
+            <footer style="text-align: center;">
+                <small>
+                    <em>Diário de Estudos desenvolvido por <strong>Andrey</strong> - 2026</em><br>
+                    <a href="#inicio">Voltar ao topo</a>
+                </small>
+            </footer>
 
 
 </body>
